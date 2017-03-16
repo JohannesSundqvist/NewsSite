@@ -1,0 +1,81 @@
+@import url(https://fonts.googleapis.com/css?family=Titillium+Web);
+
+* {
+	font-family: 'Titillium Web', sans-serif;
+}
+
+html {
+	background-image: url('http://miriadna.com/desctopwalls/images/max/Landscape-with-calm-river.jpg');
+	background-size: stretch;
+	background-repeat: no-repeat;
+	background-color: #293542;
+}
+
+body {
+	height: 100%;
+	width: 100%;
+	text-align: center;
+	color: black;
+}
+
+.overlay {
+	top: 0;
+	left: 0;
+	right: 0;
+	position: absolute;
+	background-color: rgba(255, 255, 255, 0.9);
+	width: 90%;
+	margin: 0 auto;
+	border-left: 1px solid lightgray;
+	border-right: 1px solid lightgray;
+	padding-bottom: 10px;
+
+}
+
+.newsBox {
+	margin-bottom: 15px;
+	width: 49%;
+	display: inline-table;
+	background-color: rgba(200, 200, 200, 0.1);
+	border-color: rgba(255, 255, 255, 0);
+	border-radius: 3px;
+
+}
+
+.newsBox img {
+	padding: 15px 0;
+	width: 300px;
+}
+
+.newsBox p {
+	font-size: 17px !important;
+}
+
+hr {
+	border-color: lightgray !important;
+}
+
+p {
+	width: 50%;
+	margin: 0 auto !important;
+}
+
+form {
+	width: 35%;
+	margin: 0 auto !important;
+}
+
+a {
+	text-decoration: none !important;
+	color: inherit !important;
+}
+
+li {
+	list-style-type: none;
+}
+
+nav li {
+	display: inline;
+	padding: 0 33px;
+	font-size: 16px;
+}
